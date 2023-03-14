@@ -1,0 +1,149 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DANIL\\RiderProjects\\CatCafeGameServer\\CatCafeGameServer\\CatCafeGameServer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DANIL\\RiderProjects\\CatCafeGameServer\\CatCafeGameServer\\CatCafeGameServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DANIL\\RiderProjects\\CatCafeGameServer\\CatCafeGameServer\\CatCafeGameServer.csproj",
+        "projectName": "CatCafeGameServer",
+        "projectPath": "C:\\Users\\DANIL\\RiderProjects\\CatCafeGameServer\\CatCafeGameServer\\CatCafeGameServer.csproj",
+        "packagesPath": "C:\\Users\\DANIL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DANIL\\RiderProjects\\CatCafeGameServer\\CatCafeGameServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DANIL\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\DANIL\\RiderProjects\\CatCafeGameServer\\SharedLibrary\\SharedLibrary.csproj": {
+                "projectPath": "C:\\Users\\DANIL\\RiderProjects\\CatCafeGameServer\\SharedLibrary\\SharedLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\DANIL\\.dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DANIL\\RiderProjects\\CatCafeGameServer\\SharedLibrary\\SharedLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DANIL\\RiderProjects\\CatCafeGameServer\\SharedLibrary\\SharedLibrary.csproj",
+        "projectName": "SharedLibrary",
+        "projectPath": "C:\\Users\\DANIL\\RiderProjects\\CatCafeGameServer\\SharedLibrary\\SharedLibrary.csproj",
+        "packagesPath": "C:\\Users\\DANIL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DANIL\\RiderProjects\\CatCafeGameServer\\SharedLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DANIL\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\DANIL\\.dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
